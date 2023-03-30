@@ -336,13 +336,37 @@ body {
 }
 @keyframes gradientBG{
 	0% {
-		background-position: 0% 50%;
+		background-position: 0% 10%;
+	}
+        10%{
+		background-position: 10% 20%;
+	}
+        20%{
+		background-position: 20% 30%;
+	}
+        30%{
+		background-position: 30% 40%;
+	}
+        40%{
+		background-position: 40% 50%;
 	}
 	50% {
-		background-position: 100% 50%;
+		background-position: 50% 60%;
 	}
-	100% {
-		background-position: 0% 50%;
+	60% {
+		background-position: 60% 50%;
+	}
+        70% {
+		background-position: 50% 40%;
+	}
+        80% {
+		background-position: 40% 30%;
+	}
+        90% {
+		background-position: 30% 20%;
+	}
+        100% {
+		background-position: 20% 10%;
 	}
 }
 
@@ -873,7 +897,7 @@ body {
 	/*background:#fff;*/
 	/*background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
     url('http://bucket836.oss-cn-shenzhen.aliyuncs.com/wallpaper/381535373.jpeg') no-repeat 0% 20%/ cover;*/
-    background: url('https://liiz.coding.net/p/cdn/d/images/git/raw/master/img/2021/9/17/myblogleftcolbackground_tiny.png') no-repeat 0% 0%/ cover;
+    background: url('./img/xxxx.jpg') no-repeat 0% 0%/ cover;
 	width: 300px;
 	position: fixed;
 	/* opacity: 1; */
@@ -941,7 +965,7 @@ body {
 
 .left-col #header .header-subtitle {
 	text-align: center;
-	color: #999;
+	color: #4f2020;
 	font-size: 14px;
 	line-height: 25px;
 	overflow: hidden;
@@ -1120,7 +1144,7 @@ body {
 }
 
 .article-entry .gist .gist-file .gist-data .line-numbers,.article-entry .highlight .gutter pre,.article-entry .highlight .gutter pre .line {
-	color: #666
+	color: #6f66
 }
 
 .article-entry code,.article-entry pre {
@@ -1128,7 +1152,7 @@ body {
 }
 
 .article-entry code {
-	background: #eee;
+	background: #e3ee;
 	padding: 0 .3em;
 	border: none
 }
@@ -1137,11 +1161,12 @@ body {
 	background: none;
 	text-shadow: none;
 	padding: 0;
-	color: #fff
+	color: #f8f8f8
 }
 
 .article-entry .highlight {
 	border-radius: 4px
+        background: #333333
 }
 
 .article-entry .highlight pre {
@@ -1185,11 +1210,12 @@ body {
 }
 
 .article-entry .highlight .gutter pre .line {
-	text-shadow: none
+	color: #5686bf;
+        text-shadow: none
 }
 
 .article-entry .highlight .line {
-	color: #fff;
+	color: #f8f8ff;
 	min-height: 19px
 }
 
@@ -2169,10 +2195,10 @@ pre .css~* .id,pre .id {
 
 .article-inner h1.article-title,.article-title {
 	font-family: STXingkai;
-	/* color: #696969; */
+	 color: #696969; 
 	color: rgb(59, 0, 65);
 	margin-left: 0;
-	/* font-weight: 300; */
+	 font-weight: 300; 
 	font-weight: 700;
 	line-height: 35px;
 	margin-bottom: 20px;
@@ -2189,7 +2215,7 @@ pre .css~* .id,pre .id {
 	animation-play-state: paused;
 }
 
-@keyframes shake-title {
+/*@keyframes shake-title {
     from    { transform: rotate(0deg); }
     4%      { transform: rotate(5deg); }
     12.5%   { transform: rotate(-5deg); }
@@ -2205,7 +2231,7 @@ pre .css~* .id,pre .id {
     87.5%   { transform: rotate(5deg); }
     96%     { transform: rotate(-5deg); }
     100%,to  { transform: rotate(0deg); }
-  }
+  }*/
 
 .article-header {
 	/* border-left: 5px solid #4d4d4d; */
@@ -3482,7 +3508,7 @@ pre .css~* .id,pre .id {
 		width: 100%;
 		z-index: 2;
 		/* background: #4d4d4d */
-		background: #000;
+		background: #4d4d4d;
 	}
 
 	#mobile-nav #header {
